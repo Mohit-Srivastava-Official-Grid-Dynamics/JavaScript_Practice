@@ -5,3 +5,5 @@ Key learnings (ultra‑short):
 - `02_dataTypes.js`: Strict mode, primitives, `typeof null`.
 - `03_variables.js`: `const/let/var` behavior, reassignment.
 - `04_conversionOperation.js`: Type casting (Number/Boolean/String).
+- `05_Comparison.js`: `null/undefined` comparison quirks, strict `===`.
+- `06_dataTypes-summary.js`: Primitive vs reference, dynamic typing, `Symbol`/`BigInt`.
