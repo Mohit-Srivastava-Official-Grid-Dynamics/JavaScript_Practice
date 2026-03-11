@@ -84,3 +84,39 @@ const myFunct = function(){
 // console.log(typeof(myObj) ); 
 console.log(typeof(outSideTemp) );
 console.log(typeof(bigNumber) );
+
+//Stack -- Primitive Data Types
+//Heap  -- Non-Primitive Data Types
+
+//Stack -> Copy
+//Heap -> original reference
+
+let myYTname = "MohitYT";
+
+let storage = myYTname;
+console.log(storage);
+storage = "MSyt";
+console.log(storage);
+console.log(myYTname);
+
+let userOne = {
+    email : "MS@google.com",
+    upi:"ms@95ybl"
+};
+
+
+let userTwo = userOne;
+
+userTwo.email ="ms@google.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
+/*
+
+6️⃣ Quick Memory Summary
+Item	Stored in
+userOne variable	Stack
+userTwo variable	Stack
+Object { email, upi }	Heap
+email and upi properties	Inside object in Heap
+*/
